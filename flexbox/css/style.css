@@ -1,0 +1,74 @@
+/* This changes three of the default styles and many webdesigners include this in the top of every style they create. */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+  background-color: #e0cdd0;
+  padding: 10px;
+}
+div.navbar {
+  display: flex;
+  justify-content: space-around;
+  text-align: flex start;
+  outline-style: solid;
+  outline-color: #448a9a;
+  padding: 30px;
+  background-color: #448a9a;
+  color: #e0cdd0;
+  font-size: 20px;
+}
+
+div {
+  width: 100%
+}
+
+p {
+  text-align: center;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+h1 {
+  margin: 30px;
+  color: #448a9a;
+  letter-spacing: 30px;
+  font-size: 60PX;
+  font: Trochut;
+}
+
+h2 {
+  margin: 30px;
+  font-size: 25px;
+  font: Chonburi;
+}
+
+h3 {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+div.rpaintings {
+display: flex;
+justify-content: space-around;
+}
+
+div.3dart {
+display: flex;
+justify-content: space-around;
+}
+
+div.mixedmedia {
+display: flex;
+justify-content: space-between;
+}
+
+p {
+  margin-top: 30px;
+  font-size: 20px;
+  margin-left: 90px;
+  margin-right: 90px;
+}
