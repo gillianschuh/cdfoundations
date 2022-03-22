@@ -174,3 +174,154 @@
   background: cyan;
    animation-direction: alternate;
 }
+
+@keyframes my_anime6 {
+  0% {
+    opacity: 0;
+    transform: translate(0px, 0px);
+  }
+  50% {
+    opacity: 1;
+    transform: translate(-75px, -60px);
+    width: 100px;
+    height: 50px;
+  }
+  100% {
+    opacity: 1;
+      transform: translate(-150px, -120px);
+    width: 100px;
+    height: 25px;
+    background: #FF10F0;
+  }
+}
+
+#square6 {
+  opacity: 0;
+  animation-name: my_anime6;
+  animation-duration: 1s;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  background: cyan;
+   animation-direction: alternate;
+}
+
+@keyframes my_anime7 {
+  0% {
+    opacity: 0;
+    transform: translate(0px, 0px);
+  }
+  50% {
+    opacity: 1;
+    transform: translate(75px, 60px);
+    width: 100px;
+    height: 50px;
+  }
+  100% {
+    opacity: 1;
+      transform: translate(150px, 120px);
+    width: 100px;
+    height: 25px;
+    background: #FF10F0;
+  }
+}
+
+#square7 {
+  opacity: 0;
+  animation-name: my_anime7;
+  animation-duration: 1s;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  background: cyan;
+   animation-direction: alternate;
+}
+
+@keyframes my_anime8 {
+  0% {
+    opacity: 0;
+    transform: translate(0px, 0px);
+  }
+  50% {
+    opacity: 1;
+    transform: translate(-75px, 60px);
+    width: 100px;
+    height:50px;
+  }
+  100% {
+    opacity: 1;
+      transform: translate(-150px, 120px);
+    width: 100px;
+    height:25px;
+    background: #faed27;
+  }
+}
+
+#square8 {
+  opacity: 0;
+  animation-name: my_anime8;
+  animation-duration: 1s;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  background: cyan;
+   animation-direction: alternate;
+}
+
+@keyframes my_anime9 {
+  0% {
+    opacity: 0;
+    transform: translate(0px, 0px);
+  }
+  50% {
+    opacity: 1;
+    transform: translate(75px, -60px);
+    width: 100px;
+    height: 50px;
+  }
+  100% {
+    opacity: 1;
+      transform: translate(150px, -120px);
+    width: 100px;
+    height: 25px;
+    background: #faed27;
+  }
+}
+
+#square9 {
+  opacity: 0;
+  animation-name: my_anime9;
+  animation-duration: 1s;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  background: cyan;
+   animation-direction: alternate;
+}
+
+@keyframes my_anime10 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    width: 50px;
+    height: 100px;
+  }
+  100% {
+    opacity: 1;
+    width: 25px;
+    height: 100px;
+  }
+}
+
+#square10 {
+  opacity: 0;
+  animation-name: my_anime10;
+  animation-duration: 1s;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  background: cyan;
+   animation-direction: alternate;
+}
