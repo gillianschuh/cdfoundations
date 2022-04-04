@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Funky Fun Madlib</title>
+  <style>
+   body {
+     max-width: 800px;
+     margin: auto;
+     padding: 15px;
+   }
+   div.rect {
+     min-width: 100px;
+     min-height: 100px;
+     background-color: hotpink;
+     margin-bottom: 1rem;
+   }
+   div {
+     padding: 1rem;
+   }
+
+    #story {
+      display: none;
+    }
+
+   }
+  </style>
+
+</head>
+<body>
+<h1 id="javascript">Funky Fun Madlib Game</h1>
+<p>Type your word of choice into the boxes below to reveal the story!</p>
+
+<div class="rect" id="rect01">
+<P>NOUN</P>
+  <input type="text" id="field01" value=""><BR>
+<p>ACTION VERB</p>
+  <input type="text" id="field02" value=""><br>
+<p>ADJECTIVE</P>
+  <input type="text" id="field03" value=""><br>
+<p>ACTION VERB</p>
+  <input type="text" id="field04" value=""><br> 
+<p>ADJECTIVE</p>
+  <input type="text" id="field05" value=""><br>
+  <button id="myButton">GO!</button>
+</div>
+
+<div class="rect" id="story">
+  <p> Once upon a time in a land far a way there was a young prince who lived in the land of <span id="word01">.
+    His mother, the queen of <span id="word01">,
+      wanted him to go to school for <span id="word02">, but the prince was <span id="word03">
+        and only wanted to <span id="word04">. Because of this, the queen got very <span id="word05">
+          with the princess and told him it may be better if he go live with his uncle, the prince of </p>
+</div>
+
+<script src="myscript.js"></script>
+</body>
+</html>
