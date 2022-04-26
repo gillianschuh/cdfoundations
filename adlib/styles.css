@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: .3rem;
+}
+div.rect {
+min-width: 100px;
+min-height: 100px;
+background-color: hotpink;
+margin-bottom: 1rem;
+}
+div {
+  padding: 1rem;
+}
+#story {
+  display: none;
+}
