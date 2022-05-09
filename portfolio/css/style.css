@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 10PX;
   padding: 0;
+  margin-right: 12px;
 }
 
 body {
@@ -15,14 +16,10 @@ body {
 
 .menu {
   display: block;
-width:15.5%;
+width:16%;
 position: fixed;
 float: left;
-border-style: solid;
-border-width: thin;
-border-color: white;
 font-family: Inter;
-background-color: white;
 
 }
 
@@ -49,11 +46,8 @@ background-color: white;
 
 .homegallery {
   display:;
-  width: 80%;
+  width: 82%;
   height: auto;
-  border-width: thin;
-  border-style: solid;
-  border-color: white;
   float: right;
   line-height:0;
   -webkit-column-count:3; /* split it into 5 columns */
@@ -62,5 +56,78 @@ background-color: white;
   -moz-column-gap:10px;
   column-count:3;
   column-gap:10px;
-
 }
+.othergallery {
+  line-height: 10px;
+  -webkit-column-count:3; /* split it into 5 columns */
+  -webkit-column-gap:10px; /* give it a 5px gap between columns */
+  -moz-column-count:10;
+  -moz-column-gap:10px;
+  column-count:3;
+  column-gap:10px;
+}
+
+
+h1 {
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 90px;
+  text-align: center;
+}
+
+p{
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+
+.rightsection {
+  display:;
+width: 82%;
+height: auto;
+float: right;
+text-align: center;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  line-height: 40px;
+}
+
+.gdgallery {
+display: flex;
+line-height: 1px;
+margin-top: -40px;
+justify-content:flex-start;
+}
+
+h2 {
+  font-family: 'Inter';
+  font-size: 25px;
+  text-align: center;
+  line-height: 60px;
+  font-weight: 500;
+  letter-spacing: 15px;
+  margin-top: 30px;
+}
+
+a {
+  margin-left: -0.5px;
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+
+a:hover { color:hotpink; }
+
+.footer {
+  display: block;
+  font-family: 'Inter';
+  font-style: italic;
+  text-align: center;
+ padding: 3px;
+ color: black;
+ width: 100%;
+    }
