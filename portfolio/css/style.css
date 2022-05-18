@@ -1,47 +1,54 @@
 * {
   box-sizing: border-box;
-  margin: 10PX;
+  margin: 0;
   padding: 0;
-  margin-right: 12px;
 }
 
 body {
   background-color: white;
   font-family: sans-serif;
+  margin
+}
+main {
+  margin: 45px;
 }
 
 .flex.container {
   display: flex;
 }
-
+img.gallery {
+  margin-bottom: 10px;
+}
 .menu {
   display: block;
 width:16%;
 position: fixed;
 float: left;
-font-family: Inter;
+font-family: 'Inter', sans-serif;
 
 }
 
 .heading {
   font-size: 23px;
   font-weight: bolder;
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
 }
 
 .image{
-  margin-top: -50px;
-  margin-bottom: -30px;
-  margin-left: 35px;
+  margin-top: -45px;
+  margin-bottom: -40px;
+  margin-left: 20px;
 }
 .list {
-  line-height: 20px;
+  line-height: 30px;
   font-weight: 500;
 }
 
 .socials {
   margin-left: -2px;
   padding: -2px;
+  margin-top: 20px;
+  gap:5px;
 }
 
 .homegallery {
@@ -69,22 +76,30 @@ font-family: Inter;
 
 
 h1 {
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: italic;
   font-weight: 700;
   font-size: 64px;
-  line-height: 90px;
   text-align: center;
+  margin-bottom: 20px;
 }
 
 p{
   font-family: 'Inter', sans-serif;
   font-size: 18px;
   text-align: center;
+  margin-right: 40px;
+}
+
+h4{
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 150px;
+  font-weight:200;
 }
 
 .rightsection {
-  display:;
 width: 82%;
 height: auto;
 float: right;
@@ -95,27 +110,37 @@ text-align: center;
   display: flex;
   justify-content: space-between;
   line-height: 40px;
+  gap: 50px;
+  padding: 20px;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-around;
+  line-height: 40px;
 }
 
 .gdgallery {
+margin-top: -10px;
 display: flex;
-line-height: 1px;
-margin-top: -40px;
-justify-content:flex-start;
+  gap: 10px;
+}
+
+ul{
+  margin-left: 15px;
 }
 
 h2 {
-  font-family: 'Inter';
+  font-family: 'Inter',sans-serif;
   font-size: 25px;
   text-align: center;
   line-height: 60px;
   font-weight: 500;
   letter-spacing: 15px;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 a {
-  margin-left: -0.5px;
   color: inherit; /* blue colors for links too */
   text-decoration: inherit; /* no underline */
 }
@@ -124,7 +149,7 @@ a:hover { color:hotpink; }
 
 .footer {
   display: block;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: italic;
   text-align: center;
  padding: 3px;
